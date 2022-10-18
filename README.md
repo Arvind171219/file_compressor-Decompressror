@@ -80,7 +80,8 @@ here we are using FileInputStream() to take a input stream and FileOutputStream 
 Here the function is almost similor to compressor in reverse order..
 
 # file compersions
-![file](https://user-images.githubusercontent.com/74968170/196525917-60e9b0f7-62d6-4cc6-9c94-6d3bb28decf7.png)
+![ScreenShot Tool -20221019011535](https://user-images.githubusercontent.com/74968170/196529167-64dd1dcc-d83f-47da-b860-624befe3b5d0.png)
+
 
 # Java Swing and awt
 AWT and Swing are used to develop window-based applications in Java. Awt is an abstract window toolkit that provides various component classes like Label, Button, TextField, etc., to show window components on the screen. All these classes are part of the Java.awt package.
