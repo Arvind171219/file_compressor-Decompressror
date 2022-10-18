@@ -8,9 +8,33 @@ https://user-images.githubusercontent.com/74968170/196412431-26733d97-5a90-449f-
 
 # Dtails of Projects 
 basically there is a two part of project where in one part we are basically compressing a file and another part again decompessing again.
-# compress java :
+# Compress java :
 
+              public class Compress {
+                 public static void method(File file) throws IOException{
+                  String fileDirectory =file.getParent();
+                  System.out.println(fileDirectory);
+                  FileInputStream fis = new FileInputStream(file);
+                  FileOutputStream fos = new FileOutputStream(fileDirectory + "/Comptreddedfile.gz");
+                  GZIPOutputStream gzipOS = new GZIPOutputStream(fos);
+                  byte []buffer = new byte[1024];
 
+                  int len;
+                  while((len=fis.read(buffer)) !=-1){
+                      gzipOS.write(buffer,0,len);
+                  }
+              gzipOS.close();
+              fos.close();
+              fis.close();
+                 } 
+                 public static void main(String [] args)throws IOException{
+                     File path=new File("C:\\Users\\arvin\\OneDrive\\Desktop\\resume\\text.txt");
+                     method(path);
+                 }
+              }
+
+here we are using FileInputStream() to take a input stream and FileOutputStream for saving the files with sama parents directry . GZIPOutputStream gzipOS = new GZIPOutputStream(fos) this is the main method which will giving the compress file in the form of objecs.we are also making buffer array to compress line by line each word according to our requirments ,we are taking a input txt file in main method and passed the method to compress.
+# Decompress .java 
 
 # Java Swing and awt
 AWT and Swing are used to develop window-based applications in Java. Awt is an abstract window toolkit that provides various component classes like Label, Button, TextField, etc., to show window components on the screen. All these classes are part of the Java.awt package.
