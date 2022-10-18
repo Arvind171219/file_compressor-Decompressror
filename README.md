@@ -1,16 +1,16 @@
 
-# Maze Solver
-Worked on making a maze solver GUI where the user can input a maze and specify the target point the user
-wants to find by a single mouse click. Implemented DFS Algorithm to find the path from starting to ending
-point in a maze.
+# File Compressor and Decompressor
+Made a GUI to compress a txt file into a gzip file and decode the encoded text file (compressed into gzip
+file). Was able to compress a file of size 2668 kb to 5kb.
 
-# demo Video :- 
+# GUI 
 https://user-images.githubusercontent.com/74968170/196412431-26733d97-5a90-449f-8e1e-2f069eab5fce.mp4
 
-# About the project 
+# Dtails of Projects 
+basically there is a two part of project where in one part we are basically compressing a file and another part again decompessing again.
+# compress java :
 
-# Depth-First Search
-In order to figure out how to traverse a maze through code, we first need to understand what depth-first search is. Depth-first search (sometimes referred to in this article as DFS) is a graph/tree traversal algorithm that follows a path as far as it can until it either, reaches the goal or has nowhere else to go. It’s almost like running as far as you can in one direction until you hit a wall. Hopefully that analogy helps clear up any lingering confusion. You might even be starting to see how we can use Depth-First Search to solve a maze!
+
 
 # Java Swing and awt
 AWT and Swing are used to develop window-based applications in Java. Awt is an abstract window toolkit that provides various component classes like Label, Button, TextField, etc., to show window components on the screen. All these classes are part of the Java.awt package.
