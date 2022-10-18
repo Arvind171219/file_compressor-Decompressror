@@ -9,7 +9,9 @@ Was able to compress a file of size 2668 kb to 5kb.
 
 Used java awt and java swing to design a GUI.
 # Video Demo
-https://user-images.githubusercontent.com/74968170/196412431-26733d97-5a90-449f-8e1e-2f069eab5fce.mp4
+[File.webm](https://user-images.githubusercontent.com/74968170/196523890-b371829a-8553-41fc-ad88-b2666d5e66f1.webm)
+
+<!-- https://user-images.githubusercontent.com/74968170/196412431-26733d97-5a90-449f-8e1e-2f069eab5fce.mp4 -->
 
 # Dtails of Projects 
 basically there is a two part of project where in one part we are basically compressing a file and another part again decompessing again.
@@ -76,6 +78,10 @@ here we are using FileInputStream() to take a input stream and FileOutputStream 
               }
  
 Here the function is almost similor to compressor in reverse order..
+
+# file compersions
+![file](https://user-images.githubusercontent.com/74968170/196525917-60e9b0f7-62d6-4cc6-9c94-6d3bb28decf7.png)
+
 # Java Swing and awt
 AWT and Swing are used to develop window-based applications in Java. Awt is an abstract window toolkit that provides various component classes like Label, Button, TextField, etc., to show window components on the screen. All these classes are part of the Java.awt package.
 
