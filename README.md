@@ -79,7 +79,7 @@ here we are using FileInputStream() to take a input stream and FileOutputStream 
  
 Here the function is almost similor to compressor in reverse order..
 
-# file compersions
+# file comperssed
 ![ScreenShot Tool -20221019011535](https://user-images.githubusercontent.com/74968170/196529167-64dd1dcc-d83f-47da-b860-624befe3b5d0.png)
 
 
