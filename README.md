@@ -97,7 +97,7 @@ By now I’m sure you understand exactly how our we can easally compress the fil
 
 ## Authors
 
-- [@arvind171219](https://www.github.com/octokatherine)
+- [@arvind171219](https://github.com/Arvind171219)
 
 
 ## Documentation
